@@ -1,0 +1,41 @@
+{
+  "name": "or-that-client",
+  "version": "1.0.0",
+  "description": "game for company",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "gulp-util": "^3.0.8",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatarFront/or-that-client.git"
+  },
+  "author": "Toloknova Zulfiia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatarFront/or-that-client/issues"
+  },
+  "homepage": "https://github.com/tatarFront/or-that-client#readme"
+}
