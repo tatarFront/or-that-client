@@ -40,16 +40,5 @@ module.exports = {
     new webpack.DefinePlugin({
       "process.env": JSON.stringify(env || {})
     })    
-    // new webpack.DefinePlugin({
-    //   'process.env': {
-    //     NODE_PATH: 'src/',
-    //     PORT: 3456,
-    //     ...dotenv.parsed
-    //   },
-    // }),    
-    // new Dotenv({
-    //   path: './.env', // Path to .env file (this is the default)
-    //   safe: true // load .env.example (defaults to "false" which does not use dotenv-safe)
-    // })
   ]    
 };
